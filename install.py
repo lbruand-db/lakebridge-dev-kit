@@ -17,7 +17,7 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 
-REPO = "lbruand-db/ai-dev-kit"
+REPO = "lbruand-db/lakebridge-dev-kit"
 BRANCH = "main"
 SKILL_NAME = "databricks-lakebridge-reconcile"
 SKILL_PATH = f"databricks-skills/{SKILL_NAME}"

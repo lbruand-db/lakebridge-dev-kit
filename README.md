@@ -44,7 +44,7 @@ The skill teaches an AI assistant how to generate the correct YAML configs (`rec
 Install the Lakebridge Reconcile skill into your project for Claude Code — no cloning required:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/lbruand-db/ai-dev-kit/feat/cleanup-to-core/install.py | python3 - --branch feat/cleanup-to-core
+curl -sL https://raw.githubusercontent.com/lbruand-db/lakebridge-dev-kit/main/install.py | python3
 ```
 
 This downloads the skill files into `.claude/skills/databricks-lakebridge-reconcile/` in your current directory. Then just run `claude` from that directory.
@@ -55,7 +55,7 @@ This downloads the skill files into `.claude/skills/databricks-lakebridge-reconc
 **Install globally** (available in all projects):
 
 ```bash
-curl -sL https://raw.githubusercontent.com/lbruand-db/ai-dev-kit/feat/cleanup-to-core/install.py | python3 - --branch feat/cleanup-to-core --global
+curl -sL https://raw.githubusercontent.com/lbruand-db/lakebridge-dev-kit/main/install.py | python3 - --global
 ```
 
 **Or clone and run locally:**
